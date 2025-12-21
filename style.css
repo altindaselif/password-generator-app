@@ -173,6 +173,8 @@ body {
 .length-slider::-webkit-slider-thumb {
   height: 2.8rem;
   width: 2.8rem;
+  -webkit-appearance: none;
+  appearance: none;
   border-radius: 50%;
   background-color: var(--grey-200);
   border: 0.2rem solid var(--grey-200);
